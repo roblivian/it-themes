@@ -557,6 +557,11 @@ td.colhead, .colhead td {
 .colhead_dark {
 	background: black;
 	color: white;
+	text-align: center;
+}
+
+.sidebar .center.pad {
+        display: none;
 }
 
 .colhead_dark strong, .head strong {
