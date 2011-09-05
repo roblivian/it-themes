@@ -150,22 +150,22 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #menu {
 	position: relative;
-	margin: 10px;
-	width: 100%;
-	padding: 0.6em 0;
+	margin: 3px auto 5px;
+	width: 850px;
 	text-align: center;
 	background-color: #000;
-	font-size: 10pt;
+	font: 15px serif;
 }
 
 #menu ul li {
 	position: relative;
 	display: inline;
+	margin: 0px 17px;
 }
 
 #menu ul li a {
-	padding: 0.6em 1.1%;
-	color: #ccc;
+	color: white;
+	padding: 3px;
 }
 
 #menu ul li a.active {
@@ -182,7 +182,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	background: #555;
 	color: #ccc;
 	padding: 10px;
-	width: 95%;
+	width: 850px;
 	text-align: center;
 	font-size: 9pt;
 	margin: auto;
@@ -191,7 +191,6 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
-
 
 #userinfo img {
 	margin-top: -5px;
@@ -222,6 +221,20 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	font-weight: normal;
 	font-size: 0.9em;
 	font-weight: bold;
+}
+
+#userinfo_stats {
+        float: left;
+        position: absolute;
+        top: -20px;
+        left: 0px;
+}
+
+#nav_logout {
+        /* bullshit: the '#userinfo ul li' rule is more specific, which means
+         * this one requires !important to override it.
+         */
+        display: none !important;
 }
 
 #searchbars {
