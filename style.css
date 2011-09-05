@@ -275,7 +275,6 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	margin: 0px;
 	display: inline-block;
 	text-align: center;
-	border: 1px solid #bbb;
 }
 
 #searchbars ul li {
@@ -457,7 +456,8 @@ p.min_padding {
 
 .main_column {
 	margin: 0px 0px 10px 0px;
-	width: 590px;
+	width: 560px;
+	padding-left: 30px;
 	float: left;
 }
 
