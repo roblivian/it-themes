@@ -484,6 +484,10 @@ p.min_padding {
 	float: left;
 }
 
+.main_column .head {
+        padding-left: 1em;
+}
+
 .main_column .box, .main_column table {
 	margin-bottom: 10px;
 	border: 0px;
