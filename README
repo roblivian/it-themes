@@ -1,3 +1,9 @@
 dark theme for indietorrents gazelle, based on one of viker's mockups
 
 strictly testing, just playing around at this point
+
+NOTE: i picked a bad project name, as gazelle requires subdirectories of
+styles/ to be lowercase, with spaces replaced by underscores.
+
+for my test tracker, i just symlinked Indietorrents-dark-theme to 
+indietorrents_dark_theme
