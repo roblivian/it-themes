@@ -275,6 +275,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	margin: 0px;
 	display: inline-block;
 	text-align: center;
+	border: 1px solid #999;
 }
 
 #searchbars ul li {
