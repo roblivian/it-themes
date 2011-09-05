@@ -399,7 +399,7 @@ p.min_padding {
 }
 
 .sidebar {
-	float: right;
+	float: left;
 	width: 250px;
 	height: 100%;
 }
@@ -411,8 +411,8 @@ p.min_padding {
 .head {
 	padding: 4px;
 	border-bottom: 1px solid #666;
-	background: #E1E1E1;
-	color: #333;
+	background: black;
+	color: #ccc;
 }
 
 .body {
@@ -420,8 +420,9 @@ p.min_padding {
 }
 
 .main_column {
-	margin: 0px 255px 10px 0px;
+	margin: 0px 0px 10px 0px;
 	width: 590px;
+	float: left;
 }
 
 .main_column .box, .main_column table {
@@ -504,8 +505,13 @@ td.colhead, .colhead td {
 }
 
 .colhead_dark {
-	background: #E1E1E1;
-	color: #333;
+	background: black;
+	color: white;
+}
+
+.colhead_dark strong {
+        font-weight: lighter;
+        font-size: 1.3em;
 }
 
 td.label {
