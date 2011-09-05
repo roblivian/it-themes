@@ -150,22 +150,22 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #menu {
 	position: relative;
-	margin: 10px;
-	width: 100%;
-	padding: 0.6em 0;
+	margin: 3px auto 5px;
+	width: 850px;
 	text-align: center;
 	background-color: #000;
-	font-size: 10pt;
+	font: 15px serif;
 }
 
 #menu ul li {
 	position: relative;
 	display: inline;
+	margin: 0px 17px;
 }
 
 #menu ul li a {
-	padding: 0.6em 1.1%;
-	color: #ccc;
+	color: white;
+	padding: 3px;
 }
 
 #menu ul li a.active {
