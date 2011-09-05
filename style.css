@@ -313,9 +313,14 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	text-align: center;
 }
 
+#searchbars input:hover {
+        color: white;
+}
+
 #searchbars input:focus {
-  outline: 0 none;
-  box-shadow: 0px 2px 0px #804;
+        color: white;
+        outline: 0 none;
+        box-shadow: 0px 2px 0px #804;
 }
 
 #searchbars ul {
@@ -361,13 +366,10 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #alerts {
+        position: absolute;
 	padding: 10px;
-	/*
-	margin-top: 85px;
-	margin-bottom: -85px;
-	background: #000;
-	padding: 10px 0px;
-	*/
+	top: 0;
+	right: 0;
 }
 
 #cat-selector ul {
