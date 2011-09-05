@@ -126,8 +126,20 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #footer {
 	margin-top: 40px;
 	width: 100%;
-	text-align: center;
+	text-align: right;
 	padding: 1em 0;
+}
+
+#disclaimer_container {
+        display: none;
+}
+
+#footer p {
+        float: right;
+        clear: right;
+        font-size: 9px;
+        display: inline-block;
+        margin: 0 10px 0 0;
 }
 
 #logo {
@@ -179,23 +191,21 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #userinfo {
 	position: relative;
-        background-image: -ms-linear-gradient(left, #444 0%, #777 50%, #444 100%);
-        background-image: -moz-linear-gradient(left, #444 0%, #777 50%, #444 100%);
-        background-image: -o-linear-gradient(left, #444 0%, #777 50%, #444 100%);
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #444), color-stop(0.5, #777), color-stop(1, #444));
-        background-image: -webkit-linear-gradient(left, #444 0%, #777 50%, #444 100%);
-        background-image: linear-gradient(left, #444 0%, #777 50%, #444 100%);
+        background-image: -ms-linear-gradient(left, #444 0%, #777 75%, #444 100%);
+        background-image: -moz-linear-gradient(left, #444 0%, #777 75%, #444 100%);
+        background-image: -o-linear-gradient(left, #444 0%, #777 75%, #444 100%);
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #444), color-stop(0.75, #777), color-stop(1, #444));
+        background-image: -webkit-linear-gradient(left, #444 0%, #777 75%, #444 100%);
+        background-image: linear-gradient(left, #444 0%, #777 75%, #444 100%);
 	color: #ccc;
 	padding: 10px;
 	width: 850px;
 	height: 20px;
-	text-align: center;
-	font-size: 9pt;
 	margin: auto;
-	border: 2px solid #ccc;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	border-top: 2px solid #ccc;
+	-moz-box-shadow: inset 0px -2px 2px black;
+	-webkit-box-shadow: inset 0px -2px 2px black;
+	box-shadow: inset 0px -2px 2px black;
 }
 
 #userinfo img {
