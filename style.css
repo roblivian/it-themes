@@ -151,7 +151,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #logo a {
 	border: none;
-	width: 344px;
+	width: 940px;
 	height: 197px;
 	display: block;
 }
@@ -163,7 +163,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #menu {
 	position: relative;
 	margin: 3px auto 0px;
-	width: 650px;
+	width: 652px;
 	text-align: center;
 	background-color: #000;
 	font: 15px serif;
@@ -183,14 +183,39 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	padding: 3px;
 }
 
-#menu ul li a.active {
-	background-color: #565656;
+/* nav icons */
+#nav_torrents a, #nav_requests a, #nav_forums a, #nav_wiki a, #nav_staff a {
+        display: inline-block;
+        overflow: hidden;
+        text-indent: -2000px;
+        width: 24px;
+        height: 24px;
+}
+
+#nav_torrents a {
+        background: url('http://quimian.com/it/images/nav_torrent.png') no-repeat center center;
+}
+
+#nav_requests a {
+        background: url('http://quimian.com/it/images/nav_req.png') no-repeat center center;
+}
+
+#nav_forums a {
+        background: url('http://quimian.com/it/images/nav_forum.png') no-repeat center center;
+}
+
+#nav_wiki a {
+        background: url('http://quimian.com/it/images/nav_log.png') no-repeat center center;
+}
+
+#nav_staff a {
+        background: url('http://quimian.com/it/images/nav_user.png') no-repeat center center;
 }
 
 #menu ul li a:hover {
-	background-color: #565656;
 	text-decoration: none;
 }
+/* end nav icons */
 
 #userinfo {
 	position: relative;
@@ -258,7 +283,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         float: right;
 }
 
-#nav_logout, #userinfo_minor, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules {
+#nav_logout, #userinfo_minor, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #searchbar_artists {
         /* bullshit: the '#userinfo ul li' rule is more specific, which means
          * this one requires !important to override it.
          */
@@ -266,7 +291,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #searchbars {
-	width: 650px;
+	width: 652px;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #000;
@@ -278,7 +303,8 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #searchbars input {
 	position: relative;
 	border: 0px;
-	padding: 2px 0px 2px 0px;
+	padding: 2px 0px 1px 0px;
+	margin: 0;
 	font-size: 0.9em;
 	background-color: black;
 	color: #666;
@@ -287,17 +313,26 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	text-align: center;
 }
 
+#searchbars input:focus {
+  outline: 0 none;
+  box-shadow: 0px 2px 0px #804;
+}
+
 #searchbars ul {
+        width: 100%;
 	margin: 0px;
+	padding: 0px;
 	display: inline-block;
 	text-align: center;
 }
 
 #searchbars ul li {
-	display: inline;
+	display: block;
+	width: 130px;
 	margin: 0px;
+	padding: 0px;
 	list-style: none;
-	position: relative;
+	float: left;
 }
 
 #searchbars ul li ul {
