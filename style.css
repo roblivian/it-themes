@@ -183,8 +183,8 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	padding: 3px;
 }
 
-/* nav icons */
-#nav_torrents a, #nav_requests a, #nav_forums a, #nav_wiki a, #nav_staff a {
+#nav_torrents a, #nav_requests a, #nav_forums a, #nav_wiki a, #nav_staff a,
+#nav_upload a, #nav_useredit a, #nav_donate a, #nav_invite a {
         display: inline-block;
         overflow: hidden;
         text-indent: -2000px;
@@ -192,6 +192,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         height: 24px;
 }
 
+/* primary nav icons */
 #nav_torrents a {
         background: url('http://quimian.com/it/images/nav_torrent.png') no-repeat center center;
 }
@@ -215,7 +216,24 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #menu ul li a:hover {
 	text-decoration: none;
 }
-/* end nav icons */
+
+/* userbar nav icons */
+#nav_upload a {
+        background: url('http://quimian.com/it/images/up.png') no-repeat center center;
+}
+
+#nav_invite a {
+        background: url('http://quimian.com/it/images/plus.png') no-repeat center center;
+}
+
+#nav_donate a {
+        background: url('http://quimian.com/it/images/star.png') no-repeat center center;
+}
+
+#nav_useredit a {
+        background: url('http://quimian.com/it/images/shield.png') no-repeat center center;
+}
+
 
 #userinfo {
 	position: relative;
@@ -243,6 +261,13 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #userinfo ul {
 	display: inline;
 	margin: 0px 0.8%;
+}
+
+#userinfo ul#userinfo_major, #userinfo ul li#nav_useredit {
+        float: right;
+        display: block;
+        margin:0;
+        margin-top: -5px;
 }
 
 #userinfo ul li {
@@ -277,10 +302,6 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #nav_userinfo {
         float: left;
         font-size: 17px;
-}
-
-#nav_useredit, #userinfo_major {
-        float: right;
 }
 
 #nav_logout, #userinfo_minor, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #searchbar_artists {
@@ -422,24 +443,6 @@ input.hidden {
 	margin: 0px auto;
 }
 
-#userinfo_username .brackets:before {
-	content: "[";
-}
-
-#userinfo_username .brackets:after {
-	content: "]";
-}
-
-#userinfo_major .brackets:before {
-	font-weight: bold;
-	content: "[";
-}
-
-#userinfo_major .brackets:after {
-	font-weight: bold;
-	content: "]";
-}
-
 div.linkbox {
 	text-align:center;
 	padding: 5px;
@@ -548,7 +551,7 @@ ul.nobullet {
 table {
 	width: 100%;
 	border-collapse: collapse;
-	border: 1px solid #666666;
+	border: 0px;
 	color: #000;
 }
 
@@ -562,10 +565,13 @@ table .colhead_dark a:hover {
 	color: #ccc;
 }
 
-
 tr {
 	border: 1px solid #666666;
 	background-color: #EEE;
+}
+
+tr.colhead {
+        border: 0px;
 }
 
 tr.rowa {
@@ -587,6 +593,7 @@ td {
 td.colhead, .colhead td {
 	padding-left: 10px;
 	padding-right: 10px;
+	border: 0px;
 }
 
 .colhead .sign, .colhead_dark .sign {
