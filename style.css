@@ -162,17 +162,20 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #menu {
 	position: relative;
-	margin: 3px auto 5px;
-	width: 850px;
-	text-align: right;
+	margin: 3px auto 0px;
+	width: 650px;
+	text-align: center;
 	background-color: #000;
 	font: 15px serif;
+	border: 1px solid #888;
+	border-bottom: 0px;
 }
 
 #menu ul li {
 	position: relative;
-	display: inline;
+	display: inline-block;
 	margin: 0px 3px;
+	width: 120px;
 }
 
 #menu ul li a {
@@ -255,31 +258,21 @@ ul.thin li { margin:0px 0px; padding:0px; }
         float: right;
 }
 
-#nav_logout, #userinfo_minor, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #nav_staff {
+#nav_logout, #userinfo_minor, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules {
         /* bullshit: the '#userinfo ul li' rule is more specific, which means
          * this one requires !important to override it.
          */
         display: none !important;
 }
 
-/* Replace the 'wiki' link with 'ethos' */
-#nav_wiki a {
-       width: 35px;
-       display: inline-block;
-       text-indent: -70px;
-       overflow: hidden;
-}
-
-#nav_wiki a:after {
-       content: "   Ethos";
-}
-
 #searchbars {
-	width: 100%;
+	width: 650px;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #000;
-	padding: 4px 0px;
+	padding: 0px;
+	border: 1px solid #888;
+	border-top: 0px;
 }
 
 #searchbars input {
@@ -290,6 +283,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	background-color: black;
 	color: #666;
 	font-size: 10px;
+	width: 127px;
 	text-align: center;
 }
 
@@ -297,7 +291,6 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	margin: 0px;
 	display: inline-block;
 	text-align: center;
-	border: 1px solid #999;
 }
 
 #searchbars ul li {
