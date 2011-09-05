@@ -152,7 +152,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	position: relative;
 	margin: 3px auto 5px;
 	width: 850px;
-	text-align: center;
+	text-align: right;
 	background-color: #000;
 	font: 15px serif;
 }
@@ -160,7 +160,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #menu ul li {
 	position: relative;
 	display: inline;
-	margin: 0px 17px;
+	margin: 0px 3px;
 }
 
 #menu ul li a {
@@ -245,11 +245,23 @@ ul.thin li { margin:0px 0px; padding:0px; }
         float: right;
 }
 
-#nav_logout, #userinfo_minor {
+#nav_logout, #userinfo_minor, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #nav_staff {
         /* bullshit: the '#userinfo ul li' rule is more specific, which means
          * this one requires !important to override it.
          */
         display: none !important;
+}
+
+/* Replace the 'wiki' link with 'ethos' */
+#nav_wiki a {
+       width: 35px;
+       display: inline-block;
+       text-indent: -70px;
+       overflow: hidden;
+}
+
+#nav_wiki a:after {
+       content: "   Ethos";
 }
 
 #searchbars {
