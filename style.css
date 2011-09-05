@@ -406,11 +406,12 @@ p.min_padding {
 
 .sidebar .box {
 	margin: 0px 5px 10px 5px;
+	border: 0px;
 }
 
 .head {
 	padding: 4px;
-	border-bottom: 1px solid #666;
+	border-top: 1px solid #666;
 	background: black;
 	color: #ccc;
 }
@@ -427,6 +428,7 @@ p.min_padding {
 
 .main_column .box, .main_column table {
 	margin-bottom: 10px;
+	border: 0px;
 }
 
 .tags {
