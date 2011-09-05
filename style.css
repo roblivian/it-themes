@@ -557,6 +557,12 @@ table a:hover {
 	color: #000;
 }
 
+table .colhead_dark a,
+table .colhead_dark a:hover {
+	color: #ccc;
+}
+
+
 tr {
 	border: 1px solid #666666;
 	background-color: #EEE;
