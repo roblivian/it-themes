@@ -178,17 +178,15 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 120px;
 }
 
-#menu ul li a {
-	color: white;
-	padding: 3px;
-}
-
 #nav_torrents a, #nav_requests a, #nav_forums a, #nav_wiki a, #nav_staff a {
         display: inline-block;
         overflow: hidden;
         text-indent: -2000px;
         width: 24px;
         height: 24px;
+        padding: 0px;
+        margin-top: 3px;
+        margin-bottom: 3px;
 }
 
 #nav_upload a, #nav_useredit a, #nav_donate a, #nav_invite a {
@@ -200,29 +198,16 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 /* primary nav icons */
-#nav_torrents a {
-        background: url('http://quimian.com/it/images/nav_torrent.png') no-repeat center center;
-}
-
-#nav_requests a {
-        background: url('http://quimian.com/it/images/nav_req.png') no-repeat center center;
-}
-
-#nav_forums a {
-        background: url('http://quimian.com/it/images/nav_forum.png') no-repeat center center;
-}
-
-#nav_wiki a {
-        background: url('http://quimian.com/it/images/nav_log.png') no-repeat center center;
-}
-
-#nav_staff a {
-        background: url('http://quimian.com/it/images/nav_user.png') no-repeat center center;
-}
-
-#menu ul li a:hover {
-	text-decoration: none;
-}
+#nav_torrents a {background: url('http://quimian.com/it/images/nav.png') 0 0 no-repeat;}
+#nav_torrents a:hover {background: url('http://quimian.com/it/images/nav.png') 0 -24px no-repeat;}
+#nav_requests a {background: url('http://quimian.com/it/images/nav.png') -24px 0 no-repeat;}
+#nav_requests a:hover {background: url('http://quimian.com/it/images/nav.png') -24px -24px no-repeat;}
+#nav_forums a {background: url('http://quimian.com/it/images/nav.png') -48px 0 no-repeat;}
+#nav_forums a:hover {background: url('http://quimian.com/it/images/nav.png') -48px -24px no-repeat;}
+#nav_wiki a {background: url('http://quimian.com/it/images/nav.png') -72px 0 no-repeat;}
+#nav_wiki a:hover {background: url('http://quimian.com/it/images/nav.png') -72px -24px no-repeat;}
+#nav_staff a {background: url('http://quimian.com/it/images/nav.png') -96px 0 no-repeat;}
+#nav_staff a:hover {background: url('http://quimian.com/it/images/nav.png') -96px -24px no-repeat;}
 
 /* userbar nav icons */
 #nav_upload a {
