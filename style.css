@@ -295,7 +295,12 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo_minor li:first-child {
+        border-top: 3px solid #444;
         margin-top: 20px;
+}
+
+#userinfo_minor li:last-child {
+        border-bottom: 1px solid #888;
 }
 
 #userinfo ul#userinfo_minor:hover li {
@@ -303,6 +308,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         width: 100px;
         z-index: 2;
         background: black;
+        padding-left: 3px;
         border-left: 1px solid #888;
 }
 
