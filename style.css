@@ -183,13 +183,20 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	padding: 3px;
 }
 
-#nav_torrents a, #nav_requests a, #nav_forums a, #nav_wiki a, #nav_staff a,
-#nav_upload a, #nav_useredit a, #nav_donate a, #nav_invite a {
+#nav_torrents a, #nav_requests a, #nav_forums a, #nav_wiki a, #nav_staff a {
         display: inline-block;
         overflow: hidden;
         text-indent: -2000px;
         width: 24px;
         height: 24px;
+}
+
+#nav_upload a, #nav_useredit a, #nav_donate a, #nav_invite a {
+        display: inline-block;
+        overflow: hidden;
+        text-indent: -2000px;
+        width: 20px;
+        height: 20px;
 }
 
 /* primary nav icons */
@@ -219,19 +226,19 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 /* userbar nav icons */
 #nav_upload a {
-        background: url('http://quimian.com/it/images/up.png') no-repeat center center;
+        background: url('http://quimian.com/it/images/rightnav.png') -80px 0 no-repeat;
 }
 
 #nav_invite a {
-        background: url('http://quimian.com/it/images/plus.png') no-repeat center center;
+        background: url('http://quimian.com/it/images/rightnav.png') -60px 0 no-repeat;
 }
 
 #nav_donate a {
-        background: url('http://quimian.com/it/images/star.png') no-repeat center center;
+        background: url('http://quimian.com/it/images/rightnav.png') 0 0 no-repeat;
 }
 
 #nav_useredit a {
-        background: url('http://quimian.com/it/images/shield.png') no-repeat center center;
+        background: url('http://quimian.com/it/images/rightnav.png') -20px 0 no-repeat;
 }
 
 
@@ -263,11 +270,40 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	margin: 0px 0.8%;
 }
 
-#userinfo ul#userinfo_major, #userinfo ul li#nav_useredit {
+#userinfo ul#userinfo_major, #userinfo ul#userinfo_minor {
         float: right;
         display: block;
         margin:0;
         margin-top: -5px;
+}
+
+#userinfo ul li#nav_useredit {
+        float: right;
+        display: block;
+        margin: -5px 0 0 4px;
+}
+
+#userinfo ul#userinfo_minor {
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
+        background: url('http://quimian.com/it/images/rightnav.png') -40px 0 no-repeat;
+}
+
+#userinfo ul#userinfo_minor li {
+        display: none;
+}
+
+#userinfo_minor li:first-child {
+        margin-top: 20px;
+}
+
+#userinfo ul#userinfo_minor:hover li {
+        display: inline-block;
+        width: 100px;
+        z-index: 2;
+        background: black;
+        border-left: 1px solid #888;
 }
 
 #userinfo ul li {
@@ -304,7 +340,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         font-size: 17px;
 }
 
-#nav_logout, #userinfo_minor, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #searchbar_artists {
+#nav_logout, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #searchbar_artists {
         /* bullshit: the '#userinfo ul li' rule is more specific, which means
          * this one requires !important to override it.
          */
