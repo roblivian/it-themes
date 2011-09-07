@@ -21,10 +21,10 @@ html {
 
 body {
 	width: 100%;
-	background-color: #000;
+	background-color: #ccc;
 	font-family: tahoma, helvetica, sans-serif;
 	font-size: 9pt;
-	color: #ccc;
+	color: #222;
 	min-width: 850px;
 }
 
@@ -33,12 +33,12 @@ body {
 a {
 	text-decoration: none;
 	border: none;
-	color: #ccc;
+	color: #000;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #ccc;
+	color: #000;
 }
 
 h1,h2,h3,h4 {
@@ -113,7 +113,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #header {
 	width: 100%;
 	padding: 0px 0 0 0;
-	background: #000;
+	background: #ccc;
 }
 
 #content {
@@ -144,8 +144,8 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #logo {
 	width: 940px;
-	height: 215px;
-	background: url('images/banner.jpg') no-repeat top left;
+	height: 205px;
+	background: url('http://quimian.com/it/images/banner-sticker.png') no-repeat center center;
 	margin: 0 auto;
 }
 
@@ -162,13 +162,13 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #menu {
 	position: relative;
-	margin: 3px auto 0px;
-	width: 652px;
+	margin: 0px auto 0px;
+	padding: 0 5px 0 5px;
+	width: 850px;
 	text-align: center;
-	background-color: #000;
+	background-color: #eeeee4;
 	font: 15px serif;
-	border: 1px solid #888;
-	border-bottom: 0px;
+	border: 0px;
 }
 
 #menu ul li {
@@ -195,6 +195,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         text-indent: -2000px;
         width: 20px;
         height: 20px;
+        margin-top: 5px;
 }
 
 /* primary nav icons */
@@ -229,25 +230,17 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #userinfo {
 	position: relative;
-        background-image: -ms-linear-gradient(left, #444 0%, #555 75%, #444 100%);
-        background-image: -moz-linear-gradient(left, #444 0%, #555 75%, #444 100%);
-        background-image: -o-linear-gradient(left, #444 0%, #555 75%, #444 100%);
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #444), color-stop(0.75, #555), color-stop(1, #444));
-        background-image: -webkit-linear-gradient(left, #444 0%, #555 75%, #444 100%);
-        background-image: linear-gradient(left, #444 0%, #555 75%, #444 100%);
-	color: #ccc;
-	padding: 10px;
+	background: #eeeee4;
+	color: #111;
+	padding: 5px;
 	width: 850px;
-	height: 20px;
+	height: 16px;
 	margin: auto;
-	border-top: 2px solid #ccc;
-	-moz-box-shadow: inset 0px -2px 2px black;
-	-webkit-box-shadow: inset 0px -2px 2px black;
-	box-shadow: inset 0px -2px 2px black;
+	border-top: 2px inset black;
 }
 
 #userinfo img {
-	margin-top: -5px;
+	margin-top: 0px;
 }
 
 #userinfo ul {
@@ -271,6 +264,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #userinfo ul#userinfo_minor {
         width: 20px;
         height: 20px;
+        margin-top: 0px;
         margin-right: 4px;
         background: url('http://quimian.com/it/images/rightnav.png') -40px 0 no-repeat;
 }
@@ -292,7 +286,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         display: inline-block;
         width: 100px;
         z-index: 2;
-        background: black;
+        background: #eee;
         padding-left: 3px;
         border-left: 1px solid #888;
 }
@@ -307,7 +301,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo a {
-	color: #ccc;
+	color: #400;
 }
 #userinfo a:hover {
 	text-decoration: underline;
@@ -339,13 +333,13 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #searchbars {
-	width: 652px;
+	width: 860px;
 	margin: 0 auto;
 	text-align: center;
-	background-color: #000;
+	background-color: #eeeee4;
 	padding: 0px;
-	border: 1px solid #888;
-	border-top: 0px;
+	border: 0px;
+	border-bottom: 2px solid black;
 }
 
 #searchbars input {
@@ -354,38 +348,37 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	padding: 2px 0px 1px 0px;
 	margin: 0;
 	font-size: 0.9em;
-	background-color: black;
-	color: #666;
+	background-color: #eeeee4;
+	color: #333;
 	font-size: 10px;
 	width: 127px;
 	text-align: center;
 }
 
 #searchbars input:hover {
-        color: white;
+        color: black;
 }
 
 #searchbars input:focus {
-        color: white;
+        color: black;
         outline: 0 none;
-        box-shadow: 0px 2px 0px #804;
+        box-shadow: 0px 2px 0px #fcc;
 }
 
 #searchbars ul {
         width: 100%;
-	margin: 0px;
+	margin: auto;
 	padding: 0px;
 	display: inline-block;
 	text-align: center;
 }
 
 #searchbars ul li {
-	display: block;
+	display: inline-block;
 	width: 130px;
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-	float: left;
 }
 
 #searchbars ul li ul {
@@ -433,9 +426,9 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 .alertbar {
 	border: 1px solid #999;
-	background-color: #000;
+	background-color: #f00;
 	text-align: center;
-	color: #ccc;
+	color: #fff;
 	font-weight: bold;
 	font-size: 0.95em;
 	width: 350px;
@@ -502,7 +495,7 @@ p.min_padding {
 
 .box {
 	font-size: 10pt;
-	background-color: #000;
+	background-color: #eee;
 	border: 1px solid #ccc;
 }
 
@@ -527,6 +520,10 @@ p.min_padding {
 	border-top: 1px solid #666;
 	background: black;
 	color: white;
+}
+
+.head a, .head a:hover {
+        color: white;
 }
 
 .head .time {
@@ -582,6 +579,13 @@ table {
 	color: #000;
 }
 
+.colhead_dark a,
+.colhead_dark a:hover,
+table .colhead a,
+table .colhead a:hover {
+        color: white;
+}
+
 table a,
 table a:hover {
 	color: #000;
@@ -589,7 +593,7 @@ table a:hover {
 
 table .colhead_dark a,
 table .colhead_dark a:hover {
-	color: #ccc;
+	color: #400;
 }
 
 tr {
