@@ -198,32 +198,32 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 /* primary nav icons */
-#nav_torrents a {background: url('http://quimian.com/it/images/nav.png') 0 0 no-repeat;}
-#nav_torrents a:hover {background: url('http://quimian.com/it/images/nav.png') 0 -24px no-repeat;}
-#nav_requests a {background: url('http://quimian.com/it/images/nav.png') -24px 0 no-repeat;}
-#nav_requests a:hover {background: url('http://quimian.com/it/images/nav.png') -24px -24px no-repeat;}
-#nav_forums a {background: url('http://quimian.com/it/images/nav.png') -48px 0 no-repeat;}
-#nav_forums a:hover {background: url('http://quimian.com/it/images/nav.png') -48px -24px no-repeat;}
-#nav_wiki a {background: url('http://quimian.com/it/images/nav.png') -72px 0 no-repeat;}
-#nav_wiki a:hover {background: url('http://quimian.com/it/images/nav.png') -72px -24px no-repeat;}
-#nav_staff a {background: url('http://quimian.com/it/images/nav.png') -96px 0 no-repeat;}
-#nav_staff a:hover {background: url('http://quimian.com/it/images/nav.png') -96px -24px no-repeat;}
+#nav_torrents a {background: url('images/nav.png') 0 0 no-repeat;}
+#nav_torrents a:hover {background: url('images/nav.png') 0 -24px no-repeat;}
+#nav_requests a {background: url('images/nav.png') -24px 0 no-repeat;}
+#nav_requests a:hover {background: url('images/nav.png') -24px -24px no-repeat;}
+#nav_forums a {background: url('images/nav.png') -48px 0 no-repeat;}
+#nav_forums a:hover {background: url('images/nav.png') -48px -24px no-repeat;}
+#nav_wiki a {background: url('images/nav.png') -72px 0 no-repeat;}
+#nav_wiki a:hover {background: url('images/nav.png') -72px -24px no-repeat;}
+#nav_staff a {background: url('images/nav.png') -96px 0 no-repeat;}
+#nav_staff a:hover {background: url('images/nav.png') -96px -24px no-repeat;}
 
 /* userbar nav icons */
 #nav_upload a {
-        background: url('http://quimian.com/it/images/rightnav.png') -80px 0 no-repeat;
+        background: url('images/rightnav.png') -80px 0 no-repeat;
 }
 
 #nav_invite a {
-        background: url('http://quimian.com/it/images/rightnav.png') -60px 0 no-repeat;
+        background: url('images/rightnav.png') -60px 0 no-repeat;
 }
 
 #nav_donate a {
-        background: url('http://quimian.com/it/images/rightnav.png') 0 0 no-repeat;
+        background: url('images/rightnav.png') 0 0 no-repeat;
 }
 
 #nav_useredit a {
-        background: url('http://quimian.com/it/images/rightnav.png') -20px 0 no-repeat;
+        background: url('images/rightnav.png') -20px 0 no-repeat;
 }
 
 
@@ -272,7 +272,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         width: 20px;
         height: 20px;
         margin-right: 4px;
-        background: url('http://quimian.com/it/images/rightnav.png') -40px 0 no-repeat;
+        background: url('images/rightnav.png') -40px 0 no-repeat;
 }
 
 #userinfo ul#userinfo_minor li {
