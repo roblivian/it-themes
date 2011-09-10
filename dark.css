@@ -592,6 +592,12 @@ table .colhead_dark a:hover {
 	color: #ccc;
 }
 
+/* friends.php has a different class */
+table .colhead a,
+table .colhead a:hover {
+	color: #ccc;
+}
+
 tr {
 	border: 1px solid #666666;
 	background-color: #EEE;
