@@ -778,6 +778,13 @@ ul.poll li.graph {
 	float: right;
 }
 
+div.uploader_info {
+  font-weight: normal;
+	float: right;
+  clear: both;
+  margin-top: 5px;
+}
+
 .torrent span {
 	font-weight:normal;
 	float:right;
