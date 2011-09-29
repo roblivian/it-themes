@@ -7,6 +7,7 @@
 .cats_comics { width: 28px; height: 28px; background: url('images/comics.png') no-repeat center center; }
 .cats_ebooks { width: 28px; height: 28px; background: url('images/ebook.png') no-repeat center center; }
 .cats_elearningvideos { width: 28px; height: 28px; background: url('images/elearning.png') no-repeat center center; }
+.cats_videos { width: 28px; height: 28px; background: url('images/elearning.png') no-repeat center center; }
 
 .cats_music { width: 28px; height: 28px; background: url('images/music.png') no-repeat center center; }
 /* Global */
@@ -331,7 +332,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         font-size: 17px;
 }
 
-#nav_logout, #nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #searchbar_artists {
+#nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #searchbar_artists {
         /* bullshit: the '#userinfo ul li' rule is more specific, which means
          * this one requires !important to override it.
          */
@@ -592,6 +593,12 @@ table .colhead_dark a:hover {
 	color: #ccc;
 }
 
+/* friends.php has a different class */
+table .colhead a,
+table .colhead a:hover {
+	color: #ccc;
+}
+
 tr {
 	border: 1px solid #666666;
 	background-color: #EEE;
@@ -771,6 +778,13 @@ ul.poll li.graph {
 
 .group_torrent span {
 	float: right;
+}
+
+div.uploader_info {
+  font-weight: normal;
+	float: right;
+  clear: both;
+  margin-top: 5px;
 }
 
 .torrent span {
