@@ -818,6 +818,10 @@ table.forum_post td.body {
 	width:690px;
 }
 
+.body a, .pad a {
+        text-decoration: underline;
+}
+
 blockquote {
 	margin: 10px;
 	padding: 10px;
