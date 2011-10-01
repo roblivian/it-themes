@@ -172,11 +172,17 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	border: 0px;
 }
 
+#menu ul {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+}
+
 #menu ul li {
 	position: relative;
 	display: inline-block;
 	margin: 0px 3px;
-	width: 120px;
+	width: 124px;
 }
 
 #nav_torrents a, #nav_requests a, #nav_forums a, #nav_wiki a, #nav_staff a {
@@ -237,7 +243,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 850px;
 	height: 16px;
 	margin: auto;
-	border-top: 2px inset #ccc;
+	border-top: 2px solid #ccc;
 }
 
 #userinfo img {
