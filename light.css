@@ -196,7 +196,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         margin-bottom: 3px;
 }
 
-#nav_upload a, #nav_useredit a, #nav_donate a, #nav_invite a, #nav_top10, #nav_rules {
+#nav_upload a, #nav_useredit a, #nav_donate a, #nav_invite a, #nav_top10 a, #nav_rules a {
         display: inline-block;
         overflow: hidden;
         text-indent: -2000px;
