@@ -196,7 +196,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         margin-bottom: 3px;
 }
 
-#nav_upload a, #nav_useredit a, #nav_donate a, #nav_invite a {
+#nav_upload a, #nav_useredit a, #nav_donate a, #nav_invite a, #nav_top10, #nav_rules {
         display: inline-block;
         overflow: hidden;
         text-indent: -2000px;
@@ -218,6 +218,14 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #nav_staff a:hover {background: url('images/nav.png') -96px -24px no-repeat;}
 
 /* userbar nav icons */
+#nav_top10 a {
+        background: url('images/rightnav.png') -100px 0 no-repeat;
+}
+
+#nav_rules a {
+        background: url('images/rightnav.png') -120px 0 no-repeat;
+}
+
 #nav_upload a {
         background: url('images/rightnav.png') -80px 0 no-repeat;
 }
@@ -332,7 +340,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
         font-size: 17px;
 }
 
-#nav_index, #nav_collages, #nav_irc, #nav_top10, #nav_rules, #searchbar_artists {
+#nav_index, #nav_collages, #nav_irc, #searchbar_artists {
         /* bullshit: the '#userinfo ul li' rule is more specific, which means
          * this one requires !important to override it.
          */
