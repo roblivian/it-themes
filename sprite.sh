@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # right nav images only have 1 variant.
-montage -tile 5x1 -geometry 20x20+0+0 -channel rgba -alpha on -gamma 5 -gravity South srcimgs/119-piggy-bank.png srcimgs/123-id-card.png srcimgs/19-gear.png srcimgs/24-gift.png srcimgs/56-cloud.png -background none images/rightnav.png
+montage -tile 7x1 -geometry 20x20+0+0 -channel rgba -alpha on -gamma 5 -gravity South srcimgs/119-piggy-bank.png srcimgs/123-id-card.png srcimgs/19-gear.png srcimgs/24-gift.png srcimgs/56-cloud.png srcimgs/85-trophy.png srcimgs/146-gavel.png -background none images/rightnav.png
 
 # build hover state for main nav icons.
 genfiles=()
