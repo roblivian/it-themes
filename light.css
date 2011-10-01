@@ -415,9 +415,10 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #alerts {
         position: absolute;
-	padding: 10px;
-	top: 0;
-	right: 0;
+	top: -10px;
+	width: 100%;
+	left: 0;
+	margin:auto;
 }
 
 #cat-selector ul {
@@ -433,6 +434,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 .alertbar {
 	border: 1px solid #999;
+	border-top: 0;
 	background-color: #f00;
 	text-align: center;
 	color: #fff;
@@ -441,6 +443,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 350px;
 	margin: 0px auto 0px auto;
 	padding: 10px;
+	border-radius: 10px;
 }
 .alertbar a {
 	color: #ccc;
