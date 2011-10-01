@@ -594,7 +594,7 @@ table a:hover {
 
 table .colhead_dark a,
 table .colhead_dark a:hover {
-	color: #400;
+	color: #ccc;
 }
 
 tr {
